@@ -24,7 +24,7 @@ namespace WordGuessApplication
             StringBuilder guessWord = new StringBuilder(guessBox.Text);
 
             string tempGuessWord = guessWord.ToString();
-            bool isTrue = tempGuessWord.contains("computer");
+            bool isTrue = tempGuessWord.Contains("computer");
 
             if (isTrue)
             {
